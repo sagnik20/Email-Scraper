@@ -6,8 +6,13 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from google.colab import files
 
-original_url = input("Enter the website url: ") 
-unscraped = deque([original_url])  
+url_file_name = input("Enter the file name with websites url: ") 
+
+url_file_name_extension = url_file_name[-3:] 
+header = 0 if url_file_name_extension == 'csv' else None
+original_url = pd.read_csv(url_file_name, header=header, names=['url'])['url'].tolist()
+
+unscraped = deque(original_url)  
 scraped = set()  
 emails = set()  
 
