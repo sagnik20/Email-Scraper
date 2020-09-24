@@ -23,8 +23,8 @@ Microsoft Student Partner, Student, Working for betterment of all, Competitive C
 
 # Donate
 
-> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
->
+If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
+
 <a href="https://www.paypal.me/sagnik20/"><img src="https://github.com/slaterjohn/payment-logos/blob/master/Rounded%20Corners/PNG/medium/paypal%402x.png?raw=true" style="zoom:50%;"></a>
   
   
